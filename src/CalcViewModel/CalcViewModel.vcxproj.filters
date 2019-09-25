@@ -216,9 +216,6 @@
     <ClInclude Include="DataLoaders\DataLoaderMockConstants.h">
       <Filter>DataLoaders</Filter>
     </ClInclude>
-    <ClInclude Include="DataLoaders\DataLoaderConstants.h">
-      <Filter>DataLoaders</Filter>
-    </ClInclude>
     <ClInclude Include="Common\BitLength.h">
       <Filter>Common</Filter>
     </ClInclude>
@@ -228,5 +225,8 @@
       <Filter>DataLoaders</Filter>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)DensityStyles\Compact.xaml" />
   </ItemGroup>
 </Project>
