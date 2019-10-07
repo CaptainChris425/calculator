@@ -230,6 +230,9 @@
       <DependentUpon>AboutFlyout.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="Common\AppLifecycleLogger.h" />
+    <ClInclude Include="ConstantsFlyout.xaml.h">
+      <DependentUpon>ConstantsFlyout.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="Controls\CalculationResultAutomationPeer.h" />
     <ClInclude Include="Controls\OverflowTextBlockAutomationPeer.h" />
     <ClInclude Include="Common\AlwaysSelectedCollectionView.h" />
@@ -313,6 +316,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AboutFlyout.xaml" />
+    <Page Include="ConstantsFlyout.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\Calculator.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -360,6 +366,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="Common\AppLifecycleLogger.cpp" />
+    <ClCompile Include="ConstantsFlyout.xaml.cpp">
+      <DependentUpon>ConstantsFlyout.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="Controls\CalculationResultAutomationPeer.cpp" />
     <ClCompile Include="Controls\OverflowTextBlockAutomationPeer.cpp" />
     <ClCompile Include="Common\BindableBase.cpp" />
